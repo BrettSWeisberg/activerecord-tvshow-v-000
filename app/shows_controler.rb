@@ -1,2 +1,0 @@
-class Shows_controller
-
