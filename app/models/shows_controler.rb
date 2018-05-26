@@ -16,7 +16,7 @@ Show.order(rating: :desc).first[:name]
 end
 
 def ratings_sum
-  Show.usum(rating:)
+  Show.sum(rating:)
 end
 
 def popular_shows
