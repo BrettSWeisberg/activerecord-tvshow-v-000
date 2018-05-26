@@ -1,4 +1,4 @@
-class Shows_controler
+class Shows_controller
 def highest_rating
 #  Show.order(rating: :asc).first
 end
