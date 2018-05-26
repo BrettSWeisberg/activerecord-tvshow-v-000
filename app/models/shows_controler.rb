@@ -8,10 +8,11 @@ def most_popular_show
 end
 
 def lowest_rating
-#  Show.order(rating: :desc).first
+  Show.order(rating: :desc).first
 end
 
 def leastpopular_show
+Show.order(rating: :desc).first[:name]
 end
 
 def ratings_sum
